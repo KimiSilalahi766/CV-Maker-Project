@@ -1,0 +1,95 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.job-title {
+    font-size: 1.2em;
+    color: #32CD32; /* green for job title */
+}
+
+address {
+    font-style: normal;
+    color: #555;
+    margin-top: 10px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+/* Section styles */
+h2 {
+    font-size: 1.5em;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section p,
+section ul {
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #333;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Skills and education styles */
+section p strong {
+    color: #0073e6; /* blue for headings */
+}
+
+/* Footer links styling */
+footer p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
